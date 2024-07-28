@@ -1,0 +1,84 @@
+body {overflow-x: hidden;}
+img {/*max-width: 100%;*/}
+.header-bottom.stick-h2 {background: #f6f6f6;}
+#textresizer li {display: inline-flex; align-items: center;}
+#textresizer li a {display: inline-flex; align-items: center;}
+#textresizer li a:hover {color: #ffc107;}
+#textresizer li a i {font-size: 18px;}
+.input-group-append .btn {border-top-right-radius: .25rem; border-bottom-right-radius: .25rem;} 
+.box1 {padding: 10px; padding-top: 0px; background: #fff; box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.1); border-radius: 3px; overflow: hidden;}
+.box1 .title {background: #ffc107; color: #000; padding: 6px 10px; margin-left: -10px; margin-right: -10px; margin-bottom: 10px; font-size: 16px; font-weight: 600;}
+.note1 h6 {margin-bottom: 6px;}
+.note1 h6 a {color: #8E1600; padding-bottom: 5px; border-bottom: dashed 1px #ffc107}
+.newsitem p {margin: 0px; padding: 0px;}
+.newsitem a {display: block; padding: 6px 0px; color: #AF7D00; padding-left: 25px; background: url("../images/icons/orangebullate.png") no-repeat 10px center;}
+.newsarea {display: flex;padding: 0px;}
+.admbox img {max-width: 100%;}
+.admbox a {font-size: 16px; line-height: 20px;}
+.admbox a span {display: table; width: 100%; padding: 6px; text-align: center; background: #000156; height: 50px;}
+.recmbox img {max-width: 100%;}
+.recmbox a {font-size: 16px; line-height: 20px;}
+.recmbox a h5 {color:#000156;  height: 35px; }
+.recmbox a span {display: table; width: 100%; padding: 6px; text-align: center; background: #000156; height: 50px;}
+.mbg1 {
+    background: url("../images/customizer/pattern/1.png");
+}
+.mbg2 {
+    background: url("../images/customizer/pattern/2.png");
+}
+.mbg3 {
+    background: url("../images/customizer/pattern/3.png");
+}
+.mbg4 {
+    background: url("../images/customizer/pattern/4.png");
+}
+.mbg5 {
+    background: url("../images/customizer/pattern/5.png");
+}
+.mbg6 {
+    background: url("../images/customizer/pattern/6.png");
+}
+.mbg7 {
+    background: url("../images/customizer/pattern/7.png");
+}
+.mbg8 {
+    background: url("../images/customizer/pattern/8.png");
+}
+.btl {display: flex; flex-wrap: wrap; justify-content: center;}
+.btl a {padding: 6px 10px; display: block;}
+.note2 {display: flex; line-height: 14px; margin-bottom: 8px;}
+.noteimg {width: 90px; margin-right: 10px;}
+.note2 h6 {margin: 0; padding: 0; line-height: 14px;}
+.note2 p {margin: 0; padding: 0; line-height: 14px;}
+.rthead {display: flex; justify-content: flex-end; align-items: center;}
+.add1, .add2 {background: #FFC107;;padding: 10px 18px;border-radius: 50px; margin-top: 24px;}
+.add2 {background: #2D00C7; margin: 0px 10px;}
+.admi, .relpad {display: flex; flex-direction: column; justify-content: center; color: #fff; font-size: 16px; font-weight: 600; text-align: center;}
+.sub_content {padding: 15px; box-sizing: border-box;background: #f3f3f3;
+box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);}
+.serviceBox_2 {width: 16.25%; padding: 0px 8px; margin-top: 30px;}
+.serviceBox_2 a span {display:inline-block; font-size: 15px; color: #333;padding: 2px 17px 2px 17px;background: #fff;border-radius: 0px 24px 24px 0px; margin-left: -6px; transition: all 0.4s;}
+.highbox {border-radius:5px; text-align: center; position: relative;padding-bottom: 20px; transition: all 0.4s;display: flex;align-items: center;}
+.highbox i {background: #fff; color: #000; font-size: 22px; padding: 10px; width: 50px; height: 50px; border-radius: 50px;line-height: 30px;border: solid 1px #fff; transition: all 0.4s;}
+.highbox:hover > i, .highbox:hover > span {background:#FFC107; color: #fff}
+.promo_box {position: fixed; bottom: 0px; right: 0px; display: flex; flex-direction: column;z-index: 999999; }
+.promo_box a {writing-mode: vertical-rl; margin-top: 10px; background:#ffc107; color:#000; transition: all 0.4s; width: 30px;padding: 5px;border-radius: 3px;box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.2); }
+.promo_box a:hover {background:#1500aa; color:#fff; }
+.highl {display: none;}
+.gallery-view a {color: #ffc107!important;font-size: 30px!important;}
+.single-communication {overflow: hidden;margin-bottom: 5px;}
+@media (max-width:767px) {
+	.serviceBox_2 a span {font-size: 12px;padding: 2px 8px 2px 8px;flex: 1;}
+	.highl {display: block;position: absolute; top: 50%;left: -20px;padding: 7px 0px 7px 0 !important;font-size: 12px;width: 18px !important;}
+	.promo_box {right: -30px;width: 30px;}
+	.serviceBox_2 {width: 50%; padding: 0px 8px; margin-top: 30px;}
+	.col-xs-6 {width: 50%;}
+	li.navbar-form.search {width: 100%; padding-left: 0px; margin: 8px 0px;}
+	.header-top-social.f-right {margin-top: 6px}
+	.pose {right: 0px;}
+}
+
+
+
+
+
